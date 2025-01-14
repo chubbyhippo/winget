@@ -1,2 +1,2 @@
 winget install --id=Apple.iTunes  -e
-winget install --id Microsoft.PowerToys --source winget
+winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
